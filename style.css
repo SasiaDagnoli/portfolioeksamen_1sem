@@ -2,6 +2,10 @@
     margin: 0px;
 }
 
+img {
+    width: 100%;
+}
+
 body {
     background-color: #fef2f2;
 }
@@ -92,5 +96,19 @@ nav {
         padding-left: 265px;
     }
 
+    .container1 {
+        position: absolute;
+        margin-top: 20px;
+        width: auto;
+    }
+
+    .topnav {
+        overflow: hidden;
+        width: 1535px;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
 
 }

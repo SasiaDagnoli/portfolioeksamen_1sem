@@ -1,0 +1,21 @@
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 4rem;
+    color: white;
+}
+
+.bg-img {
+    background-image: url(images/background.jpg);
+    min-height: 750px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}

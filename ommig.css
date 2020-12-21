@@ -1,1 +1,41 @@
+h1 {
+    font-family: 'Sacramento', cursive;
+}
 
+p {
+    font-family: 'Josefin Slab', serif;
+}
+
+.ramme {
+    background-image: url(images/flower_frame.svg);
+    width: 110%;
+    height: 110%;
+    position: absolute;
+    top: 13.8vw;
+    left: -0.5vw;
+    background-repeat: no-repeat;
+}
+
+@media (min-width: 1100px) {
+    .grid {
+        display: grid;
+        grid-template-columns: 0.6fr 1.2fr 0.8fr 1fr 1fr;
+    }
+
+    p {
+        grid-column-start: 4;
+    }
+
+    .grid img {
+        grid-column-start: 2;
+        border: 16px solid #b6666f;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 4rem;
+        padding: 150px;
+    }
+
+
+}
