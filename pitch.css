@@ -1,0 +1,28 @@
+h1,
+h2 {
+    text-align: center;
+    padding-top: 180px;
+    font-family: 'Sacramento',
+        cursive;
+    font-size: 3rem;
+}
+
+
+.billeder {
+    width: 20vw;
+    height: 10vw;
+    display: flex;
+    grid-gap: 60px;
+    margin: 50px;
+}
+
+.forside {
+    display: flex;
+    grid-gap: 80px;
+    margin: 50px;
+}
+
+.forside img {
+    width: 30vw;
+    height: 20vw;
+}

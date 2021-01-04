@@ -1,0 +1,61 @@
+h1,
+h2 {
+    text-align: center;
+    padding-top: 180px;
+    font-family: 'Sacramento',
+        cursive;
+    font-size: 3rem;
+}
+
+p {
+    font-family: 'Josefin Slab', serif;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.udkast p {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 50px;
+}
+
+.billeder {
+    width: 20vw;
+    height: 10vw;
+    display: flex;
+    grid-gap: 60px;
+    margin: 50px;
+}
+
+.splash {
+    width: 20vw;
+    height: 10vw;
+    display: flex;
+    grid-gap: 60px;
+    margin: 50px;
+    margin-left: 800px;
+}
+
+.udsplash {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 50px;
+}
+
+.udsplash p {
+    grid-column-start: 2;
+}
+
+.ikoner {
+    padding-top: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 0.2fr 1fr 1fr;
+}
+
+.skitse {
+    grid-column-start: 2;
+}
+
+.ikon {
+    grid-column-start: 4;
+}

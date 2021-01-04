@@ -2,6 +2,37 @@
     margin: 0px;
 }
 
+footer {
+    width: 100%;
+    background: #e4c2c1;
+    font-size: 20px;
+    padding: 30px;
+    font-family: 'Josefin Slab', serif;
+}
+
+footer .logo {
+    position: relative;
+    height: 3vw;
+    left: 43vw;
+    top: -3vw;
+}
+
+footer .tekst {
+    position: relative;
+    top: 2vw;
+}
+
+footer .ikoner {
+    display: flex;
+    position: relative;
+    width: 3vw;
+    height: 3vw;
+    left: 85vw;
+    top: -3vw;
+
+}
+
+
 img {
     width: 100%;
 }

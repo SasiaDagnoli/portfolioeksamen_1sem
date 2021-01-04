@@ -36,6 +36,7 @@ function sidenVises() {
     hover6.addEventListener("mouseout", imgNot3, false);
     hover7.addEventListener("mouseout", imgNot1, false);
     hover8.addEventListener("mouseout", imgNot7, false);
+
 }
 
 function toggleMenu() {
