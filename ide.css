@@ -16,6 +16,27 @@
     }
 }
 
+@media only screen and (min-width: 300px) and (max-width: 1025px) and (orientation: landscape) {
+
+    h1,
+    p {
+        padding: 30px;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    .skitser,
+    .skitse2,
+    .final {
+        width: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 30px;
+    }
+}
 
 @media (min-width: 1100px) {
     h1 {

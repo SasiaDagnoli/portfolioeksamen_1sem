@@ -174,6 +174,178 @@ button a {
 
 }
 
+@media only screen and (min-width: 300px) and (max-width: 1025px) and (orientation: landscape) {
+    h1 {
+        padding: 30px;
+        font-size: 3rem;
+    }
+
+    #galleri img {
+        width: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        ;
+    }
+
+    .img0 {
+        margin-bottom: 80px;
+    }
+
+    .img1 {
+        margin-bottom: 80px;
+    }
+
+    .img2 {
+        margin-bottom: 80px;
+    }
+
+    .img3 {
+        margin-bottom: 80px;
+    }
+
+    .img4 {
+        margin-bottom: 80px;
+    }
+
+    .img5 {
+        margin-bottom: 80px;
+    }
+
+    .img6 {
+        margin-bottom: 80px;
+    }
+
+    .img7 {
+        margin-bottom: 80px;
+    }
+
+    #chokolade {
+        background-image: url(images/endelige_figurer.svg);
+        width: 80vw;
+        height: 20vh;
+        background-repeat: no-repeat;
+        margin-left: 250px;
+        margin-bottom: 80px;
+    }
+
+    .knap1 {
+        top: 319vw;
+        left: 42vw;
+    }
+
+    .knap2 {
+        top: 387vw;
+        left: 42vw;
+    }
+
+    .knap3 {
+        top: 209vw;
+        left: 42vw;
+    }
+
+    .knap4 {
+        top: 352vw;
+        left: 42vw;
+    }
+
+    .knap5 {
+        top: 495vw;
+        left: 42vw;
+    }
+
+    .knap6 {
+        top: 281vw;
+        left: 42vw;
+    }
+
+    .knap7 {
+        top: 247vw;
+        left: 42vw;
+    }
+
+    .knap8 {
+        top: 477vw;
+        left: 42vw;
+    }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1025px) and (orientation: landscape) {
+    .knap1 {
+        top: 308vw;
+    }
+
+    .knap2 {
+        top: 371vw;
+    }
+
+    .knap3 {
+        top: 205vw;
+    }
+
+    .knap4 {
+        top: 340vw;
+    }
+
+    .knap5 {
+        top: 482vw;
+    }
+
+    .knap6 {
+        top: 272vw;
+    }
+
+    .knap7 {
+        top: 241vw;
+    }
+
+    .knap8 {
+        top: 461vw;
+    }
+}
+
+@media only screen and (min-width: 764px) and (max-width: 1025px) and (orientation: portrait) {
+    .knap1 {
+        left: 41vw;
+        top: 563vw;
+    }
+
+    .knap2 {
+        left: 41vw;
+        top: 677vw;
+    }
+
+    .knap3 {
+        top: 379vw;
+        left: 41vw;
+    }
+
+    .knap4 {
+        left: 41vw;
+        top: 620vw;
+    }
+
+    .knap5 {
+        left: 41vw;
+        top: 875vw;
+    }
+
+    .knap6 {
+        left: 41vw;
+        top: 500vw;
+    }
+
+    .knap7 {
+        left: 41vw;
+        top: 443vw;
+    }
+
+    .knap8 {
+        left: 41vw;
+        top: 840vw;
+    }
+}
+
 @media (min-width: 1100px) {
     #galleri .galleri_wrapper {
         display: grid;

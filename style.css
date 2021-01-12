@@ -76,6 +76,49 @@ nav {
     width: 7vw;
 }
 
+@media only screen and (min-width: 300px) and (max-width: 1025px) and (orientation: landscape) {
+    .logo {
+        position: absolute;
+        left: 3vw;
+    }
+
+    #menuknap {
+        position: absolute;
+        top: 2.5vw;
+        left: 93vw;
+    }
+
+    .text {
+        position: absolute;
+        top: 25vw;
+        left: 10vw;
+    }
+
+    footer .logo {
+        top: -1vw;
+        left: 88vw;
+    }
+
+    footer .tekst {
+        top: 3vw;
+        left: 2.5vw;
+    }
+
+    #menu li {
+        display: inline-block;
+        padding: 20px;
+        margin-left: 120px;
+    }
+
+
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1025px) and (orientation: landscape) {
+    #menu li {
+        margin-left: 180px;
+    }
+}
+
 @media screen and (max-width: 800px) {
     header {
         position: sticky;
@@ -120,9 +163,24 @@ nav {
 
     footer {
         height: 200px;
+        margin-top: 400px;
     }
 }
 
+@media only screen and (min-width: 764px) and (max-width: 1025px) and (orientation: portrait) {
+    .logo {
+        width: 15vw;
+    }
+
+    footer .tekst {
+        top: 10vw;
+    }
+
+    footer .logo {
+        top: 2vw;
+        left: 80vw;
+    }
+}
 
 @media (min-width: 1100px) {
     #menuknap {

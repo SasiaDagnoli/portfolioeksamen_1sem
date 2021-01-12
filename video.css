@@ -1,11 +1,24 @@
+a {
+    color: black;
+}
+
 @media (max-width: 800px) {
-    video {
-        width: 100%;
-    }
 
     h1,
     p {
         padding: 30px;
+    }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 1025px) and (orientation: landscape) {
+
+    h1,
+    p {
+        padding: 30px;
+    }
+
+    h1 {
+        font-size: 3rem;
     }
 }
 
@@ -17,7 +30,7 @@
         font-size: 3rem;
     }
 
-    video {
+    #video {
         width: 50%;
         display: block;
         margin-left: auto;

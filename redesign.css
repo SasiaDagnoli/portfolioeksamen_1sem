@@ -14,6 +14,28 @@ a {
     }
 }
 
+@media only screen and (min-width: 300px) and (max-width: 1025px) and (orientation: landscape) {
+
+    h1,
+    h2,
+    p {
+        padding: 30px;
+    }
+
+    h1,
+    h2 {
+        font-size: 3rem;
+    }
+
+    .flex,
+    .flex2 img {
+        width: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
 @media (min-width: 1100px) {
     h1 {
         font-size: 3rem;
