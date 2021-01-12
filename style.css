@@ -2,35 +2,33 @@
     margin: 0px;
 }
 
-footer {
-    width: 100%;
-    background: #e4c2c1;
-    font-size: 20px;
-    padding: 30px;
-    font-family: 'Josefin Slab', serif;
+h1,
+h2 {
+    text-align: center;
+    font-family: 'Sacramento',
+        cursive;
 }
 
-footer .logo {
-    position: relative;
-    height: 3vw;
-    left: 43vw;
-    top: -3vw;
+p {
+    font-family: 'Josefin Slab', serif;
+    text-align: center;
 }
 
 footer .tekst {
     position: relative;
-    top: 2vw;
 }
 
-footer .ikoner {
-    display: flex;
+footer {
+    width: 100%;
+    background: #e4c2c1;
+    font-family: 'Josefin Slab', serif;
+}
+
+
+footer .logo {
     position: relative;
-    width: 3vw;
-    height: 3vw;
-    left: 85vw;
-    top: -3vw;
-
 }
+
 
 
 img {
@@ -78,7 +76,7 @@ nav {
     width: 7vw;
 }
 
-@media (max-width: 650px) {
+@media screen and (max-width: 800px) {
     header {
         position: sticky;
         z-index: 1;
@@ -108,6 +106,20 @@ nav {
         position: absolute;
         width: 22vw;
         left: 5vw;
+    }
+
+    footer .logo {
+        left: 74vw;
+        top: 5vw;
+    }
+
+    footer .tekst {
+        top: 20vw;
+        left: 2vw;
+    }
+
+    footer {
+        height: 200px;
     }
 }
 
@@ -142,4 +154,18 @@ nav {
         overflow-x: hidden;
     }
 
+    footer {
+        font-size: 20px;
+        padding: 30px;
+    }
+
+    footer .logo {
+        height: 3vw;
+        left: 43vw;
+        top: -3vw;
+    }
+
+    footer .tekst {
+        top: 2vw;
+    }
 }
